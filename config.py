@@ -1,5 +1,6 @@
-# [step 1]>> 例如： API_KEY = "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" （此key无效）
-API_KEY = "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"
+# [step 1]>> 例如： API_KEY = "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" （此key无效）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
+
+API_KEY = "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"
 
 # [step 2]>> 改为True应用代理，如果直接在海外服务器部署，此处不修改
 USE_PROXY = False
