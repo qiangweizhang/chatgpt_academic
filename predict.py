@@ -163,7 +163,7 @@ def predict(inputs, top_p, temperature, chatbot=[], history=[], system_prompt=''
         stream_response =  response.iter_lines()
         while True:
             chunk = next(stream_response)
-            # print(chunk.decode()[6:])
+            print(chunk.decode()[6:])
             if is_head_of_the_stream:
                 # 数据流的第一帧不携带content
                 is_head_of_the_stream = False; continue
