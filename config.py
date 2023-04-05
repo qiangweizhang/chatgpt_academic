@@ -43,4 +43,4 @@ API_URL = "https://api.openai.com/v1/chat/completions"
 CONCURRENT_COUNT = 100
 
 # 设置用户名和密码（相关功能不稳定，与gradio版本和网络都相关，如果本地使用不建议加这个）
-AUTHENTICATION = [("username", "password"), ("username2", "password2"), ...]
+AUTHENTICATION = [("username", "password"), ("username2", "password2")]
